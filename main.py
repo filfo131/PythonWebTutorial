@@ -1,7 +1,1 @@
-from flask import Flask
-
-def create_app():
-    app = Flask(__name__)
-    app.config['SECRET_KEY'] = 'RaNdomWord'
-
-    return app
+from website import create_app
